@@ -1,5 +1,10 @@
-<h1>Index</h1>
+<h1>Blog Posts</h1>
+<hr>
 <% @posts.each do |post| %>
-  <h3><%= post.title %></h3>
-  <p><%= post.body %></p>
+    <div class="well well-sm">
+        <h3><%= post.title %></h3>
+        <p><%= post.body %></p>
+        <%= link_to "Read More", post_path(post), :class => 'btn btn-primary'%>
+        <hr>
+    </div>
 <% end %>
