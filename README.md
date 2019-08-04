@@ -23,3 +23,7 @@ Things you may want to cover:
 
 * ...
 # ruby-blog
+
+A simple CRUD blog page done using Ruby on Rails
+
+Run `bundle install` and `rails server` to view
